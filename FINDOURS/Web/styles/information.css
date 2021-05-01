@@ -1,0 +1,62 @@
+nav {
+    background-color: white;
+    color: black;
+}
+
+#app-name {
+    display: inline;
+    position: relative;
+    bottom: 37px;
+    font-weight: 700;
+}
+
+#content {
+    margin-top: 50px;
+}
+
+.content-info {
+    width: 500px;
+    padding: 5px;  
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-info > span {
+    width: 210px;
+}
+
+#fingerprint {
+    align-items: flex-start;
+    order: 0;
+    text-align: center;
+    background-color: rgba(128, 128, 128, 0.466);
+    width: 300px;
+    height: calc(100vh - 100px);
+}
+
+#adhar {
+    order: 1;
+    margin: auto;
+}
+
+#fingerprint-icon {
+    margin-top: 10px;
+}
+
+.fingerprint {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-in-out;
+}
+
+.fingerprint:hover {
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+}
+
+.icon:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,26 @@
+{
+    "101_1.tif": {
+        "name": "Abhijeet",
+        "age": 19,
+        "dob": "Jan",
+        "address": "shirdi"
+    },
+    "101_2.tif": {
+        "name": "Om",
+        "age": 19,
+        "dob": "Feb",
+        "address": "Shirur"
+    },
+    "102_1.tif": {
+        "name": "Atharv",
+        "age": 20,
+        "dob": "Mar",
+        "address": "Pune"
+    },
+    "102_2.tif": {
+        "name": "Mansi",
+        "age": 21,
+        "dob": "Apr",
+        "address": "Mumbai"
+    }
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration: Find Ours</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/register.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/navbar96.png" alt="FindOurs Logo">
+        <p id="app-name">FIND OURS</p>
+        <p id="signout" onclick="logout()"><a href="#"><img src="images/signout.png" alt="Sign Out"></a></p>
+    </nav>
+    
+    <div class="page-head">
+        NEW REGISTRATION
+    </div>
+
+    <form action="">
+        <label for="first-name">
+            <p>First Name: </p> 
+            <input type="text" maxlength="25" required>
+        </label>
+
+        <label for="last-name">
+            <p>Last Name: </p> 
+            <input type="text" maxlength="25" required>
+        </label>
+
+        <label for="phone-number">
+            <p>Phone/Mobile: </p> 
+            <input type="number" minlength="10" maxlength="12" required>
+        </label>
+
+        <label for="State">
+            <p>State: </p>
+            <input type="text" name="state" id="State">
+        </label>
+        <label for="district">
+            <p>District: </p>
+            <input type="text" name="district" id="district">
+        </label>
+        <label for="taluka">
+            <p>Taluka: </p>
+            <input type="text" name="taluka" id="taluka">
+        </label>
+        <label for="town">
+            <p>Town: </p>
+            <input type="text" name="town" id="town">
+        </label>
+
+        <label for="pincode">
+            <p>PIN CODE: </p>
+            <input type="text" name="pincode" id="pincode">
+        </label>
+
+        <label for="register-button">
+            <input type="submit" value="Register" onclick="registrationSuccess()">
+        </label>
+        </div>
+    </form>
+
+    <script src="scripts/app.js"></script>
+</body>
+</html>

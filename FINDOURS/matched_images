@@ -1,0 +1,198 @@
+
+If you want to match 3rd image in the database select any of: 
+    
+do not match: 107_5 101_1 
+
+101_1.tif  :matches with:  101_4.tif
+
+101_1.tif  :matches with:  105_5.tif
+
+101_1.tif  :matches with:  107_3.tif
+101_1.tif  :matches with:  107_8.tif
+
+101_1.tif  :matches with:  108_7.tif
+
+101_1.tif  :matches with:  109_1.tif
+101_1.tif  :matches with:  109_2.tif
+101_1.tif  :matches with:  109_3.tif
+101_1.tif  :matches with:  109_6.tif
+101_1.tif  :matches with:  109_8.tif
+
+101_1.tif  :matches with:  110_1.tif
+101_1.tif  :matches with:  110_2.tif
+101_1.tif  :matches with:  110_5.tif
+===========================================================
+101_2.tif  :matches with:  101_1.tif
+101_2.tif  :matches with:  101_2.tif
+101_2.tif  :matches with:  101_3.tif
+101_2.tif  :matches with:  101_4.tif
+101_2.tif  :matches with:  101_5.tif
+101_2.tif  :matches with:  101_6.tif
+101_2.tif  :matches with:  101_7.tif
+101_2.tif  :matches with:  101_8.tif
+
+101_2.tif  :matches with:  102_2.tif
+101_2.tif  :matches with:  102_4.tif
+101_2.tif  :matches with:  102_5.tif
+101_2.tif  :matches with:  102_8.tif
+
+101_2.tif  :matches with:  103_1.tif
+101_2.tif  :matches with:  103_2.tif
+101_2.tif  :matches with:  103_3.tif
+101_2.tif  :matches with:  103_4.tif
+101_2.tif  :matches with:  103_7.tif
+
+101_2.tif  :matches with:  104_2.tif
+101_2.tif  :matches with:  104_5.tif
+101_2.tif  :matches with:  104_6.tif
+101_2.tif  :matches with:  104_7.tif
+101_2.tif  :matches with:  104_8.tif
+
+101_2.tif  :matches with:  105_1.tif
+101_2.tif  :matches with:  105_2.tif
+101_2.tif  :matches with:  105_3.tif
+101_2.tif  :matches with:  105_4.tif
+101_2.tif  :matches with:  105_5.tif
+101_2.tif  :matches with:  105_6.tif
+101_2.tif  :matches with:  105_7.tif
+101_2.tif  :matches with:  105_8.tif
+
+101_2.tif  :matches with:  106_1.tif
+101_2.tif  :matches with:  106_2.tif
+101_2.tif  :matches with:  106_3.tif
+101_2.tif  :matches with:  106_4.tif
+101_2.tif  :matches with:  106_5.tif
+101_2.tif  :matches with:  106_6.tif
+101_2.tif  :matches with:  106_7.tif
+101_2.tif  :matches with:  106_8.tif
+
+101_2.tif  :matches with:  107_2.tif
+101_2.tif  :matches with:  107_3.tif
+101_2.tif  :matches with:  107_4.tif
+101_2.tif  :matches with:  107_5.tif
+101_2.tif  :matches with:  107_6.tif
+101_2.tif  :matches with:  107_7.tif
+101_2.tif  :matches with:  107_8.tif
+
+101_2.tif  :matches with:  108_1.tif
+101_2.tif  :matches with:  108_2.tif
+101_2.tif  :matches with:  108_3.tif
+101_2.tif  :matches with:  108_5.tif
+101_2.tif  :matches with:  108_6.tif
+101_2.tif  :matches with:  108_7.tif
+101_2.tif  :matches with:  108_8.tif
+
+101_2.tif  :matches with:  109_1.tif
+101_2.tif  :matches with:  109_2.tif
+101_2.tif  :matches with:  109_3.tif
+101_2.tif  :matches with:  109_4.tif
+101_2.tif  :matches with:  109_5.tif
+101_2.tif  :matches with:  109_6.tif
+101_2.tif  :matches with:  109_7.tif
+101_2.tif  :matches with:  109_8.tif
+
+101_2.tif  :matches with:  110_1.tif
+101_2.tif  :matches with:  110_2.tif
+101_2.tif  :matches with:  110_3.tif
+101_2.tif  :matches with:  110_4.tif
+101_2.tif  :matches with:  110_5.tif
+101_2.tif  :matches with:  110_6.tif
+101_2.tif  :matches with:  110_7.tif
+101_2.tif  :matches with:  110_8.tif
+====================================================
+
+102_1.tif  :matches with:  101_1.tif
+102_1.tif  :matches with:  101_2.tif
+102_1.tif  :matches with:  101_5.tif
+102_1.tif  :matches with:  101_6.tif
+102_1.tif  :matches with:  101_8.tif
+
+102_1.tif  :matches with:  102_1.tif
+102_1.tif  :matches with:  102_2.tif
+102_1.tif  :matches with:  102_8.tif
+
+102_1.tif  :matches with:  103_2.tif
+102_1.tif  :matches with:  103_5.tif
+
+102_1.tif  :matches with:  104_8.tif
+
+102_1.tif  :matches with:  105_1.tif
+102_1.tif  :matches with:  105_3.tif
+102_1.tif  :matches with:  105_5.tif
+102_1.tif  :matches with:  105_6.tif
+102_1.tif  :matches with:  105_7.tif
+102_1.tif  :matches with:  105_8.tif
+
+102_1.tif  :matches with:  106_1.tif
+102_1.tif  :matches with:  106_2.tif
+102_1.tif  :matches with:  106_3.tif
+102_1.tif  :matches with:  106_4.tif
+102_1.tif  :matches with:  106_5.tif
+102_1.tif  :matches with:  106_6.tif
+102_1.tif  :matches with:  106_7.tif
+102_1.tif  :matches with:  106_8.tif
+
+102_1.tif  :matches with:  107_1.tif
+102_1.tif  :matches with:  107_3.tif
+102_1.tif  :matches with:  107_8.tif
+
+102_1.tif  :matches with:  108_1.tif
+102_1.tif  :matches with:  108_3.tif
+102_1.tif  :matches with:  108_7.tif
+102_1.tif  :matches with:  108_8.tif
+
+102_1.tif  :matches with:  109_1.tif
+102_1.tif  :matches with:  109_2.tif
+102_1.tif  :matches with:  109_3.tif
+102_1.tif  :matches with:  109_4.tif
+102_1.tif  :matches with:  109_5.tif
+102_1.tif  :matches with:  109_6.tif
+102_1.tif  :matches with:  109_7.tif
+102_1.tif  :matches with:  109_8.tif
+
+102_1.tif  :matches with:  110_1.tif
+102_1.tif  :matches with:  110_2.tif
+102_1.tif  :matches with:  110_3.tif
+102_1.tif  :matches with:  110_4.tif
+102_1.tif  :matches with:  110_6.tif
+102_1.tif  :matches with:  110_7.tif
+102_1.tif  :matches with:  110_8.tif
+===============================================================================
+102_2.tif  :matches with:  101_2.tif
+102_2.tif  :matches with:  101_5.tif
+
+102_2.tif  :matches with:  103_1.tif
+102_2.tif  :matches with:  103_2.tif
+
+102_2.tif  :matches with:  105_1.tif
+102_2.tif  :matches with:  105_6.tif
+102_2.tif  :matches with:  105_7.tif
+102_2.tif  :matches with:  105_8.tif
+
+102_2.tif  :matches with:  106_1.tif
+102_2.tif  :matches with:  106_2.tif
+102_2.tif  :matches with:  106_3.tif
+102_2.tif  :matches with:  106_4.tif
+102_2.tif  :matches with:  106_5.tif
+102_2.tif  :matches with:  106_6.tif
+102_2.tif  :matches with:  106_7.tif
+
+102_2.tif  :matches with:  107_4.tif
+102_2.tif  :matches with:  107_8.tif
+
+102_2.tif  :matches with:  108_1.tif
+102_2.tif  :matches with:  108_3.tif
+102_2.tif  :matches with:  108_7.tif
+102_2.tif  :matches with:  108_8.tif
+
+102_2.tif  :matches with:  109_1.tif
+102_2.tif  :matches with:  109_2.tif
+102_2.tif  :matches with:  109_3.tif
+102_2.tif  :matches with:  109_4.tif
+102_2.tif  :matches with:  109_6.tif
+102_2.tif  :matches with:  109_7.tif
+102_2.tif  :matches with:  109_8.tif
+
+102_2.tif  :matches with:  110_1.tif
+102_2.tif  :matches with:  110_2.tif
+102_2.tif  :matches with:  110_4.tif

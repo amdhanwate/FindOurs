@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+body {
+    background-color: rgb(21, 20, 20);
+}
+
+#navbar {
+    background-color: rgb(246, 249, 252);
+    /* padding: 5px; */
+}
+
+#app-name {
+    display: inline;
+    position: relative;
+    bottom: 37px;
+    margin-left: 20px;
+    color: black;
+    font-weight: 700;
+}
+
+.page-head {
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    font-weight: 600;
+}
+#signout {
+    float: right;
+    position: relative;
+    top: 37px;
+    right: 50px;
+}
+
+form {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+form > label {
+    display: flex;
+    justify-content: space-between ;
+    margin-bottom: 20px;
+}
+
+form > label > input {
+    color: black;;
+}
+
+form > label > p {
+    margin-right: 30px;
+}
+
+#login-btn {
+    color: black;
+    padding: 3px 20px;
+    margin-top: 20px;
+    position: inherit;
+    margin: auto;
+}
+
+.fingerprint {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-in-out;
+}
+
+.fingerprint:hover {
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+}
+
+
+/* Hide the increment-decrement buttons from the input field: START */
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+    -webkit-appearance: none; 
+}
+
+input[type=number] {
+    -moz-appearance: textfield;
+}
+/* Hide the increment-decrement buttons from the input field: END */

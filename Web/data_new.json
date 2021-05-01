@@ -1,0 +1,37 @@
+{
+    "101_1.tif": {
+        "name": "Abhijeet Dhanwate",
+        "age": 19,
+        "gender": "Male",
+        "mobile": 9866743619,
+        "address": "Ajod Dairy Road, Nr Anil Estate, Rakhial, Ahmedabad, Gujarat, 380023",
+        "image": "http://localhost/findours/Web/data_images/abhijeet.jpg"
+    },
+
+    "101_2.tif": {
+        "name": "Om Dhamdhere",
+        "age": 20,
+        "gender": "Male",
+        "mobile": 9876957935,
+        "address": "33, Ismail Bldg, Pathak Wadi, Lohar Chawl, Mumbai, 400002",
+        "image": "http://localhost/findours/Web/data_images/om.jpg"
+    },
+
+    "102_1.tif": {
+        "name": "Atharv Kumbhar",
+        "age": 21,
+        "gender": "Male",
+        "mobile": 9056485729,
+        "address": "B-35, Ram Kutir, Pandit Gunidas Marg, Dadar (w), Mumbai, Maharashtra, 400028",
+        "image": "http://localhost/findours/Web/data_images/atharv.jpg"
+    },
+
+    "102_2.tif": {
+        "name": "Mansi Singh",
+        "age": 19,
+        "gender": "Female",
+        "mobile": 9866743619,
+        "address": "6-1-133/16/1, Parmarao Nagar, Hyderabad, Andhra Pradesh, 500025",
+        "image": "http://localhost/findours/Web/data_images/mansi.jpg"
+    }
+}

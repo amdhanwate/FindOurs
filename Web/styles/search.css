@@ -1,0 +1,106 @@
+.fingerprint {
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%, -50%);
+    transition: 0.3s ease-in-out;
+}
+
+.fingerprint:hover {
+    background-color: rgb(36, 36, 36);
+    border-radius: 50%;
+}
+
+.icon:hover {
+    text-decoration: underline;
+}
+
+.scan-msg {
+    font-size: large;
+    font-weight: 500;
+    margin-top: 50px;
+    text-align: center;
+}
+
+
+form {
+    position: absolute;
+    top: 40vh;
+    transform: translateX(-50%);
+    left: 50%;
+}
+
+/* .genderSelection {
+    display: flex;
+    text-align: left;
+    width: fit-content;
+    margin: 100px auto;
+}
+
+.genderSelection h4 {
+    margin-right: 15px;
+}
+
+.genderSelection input {
+    margin-bottom: 10px; 
+}
+
+*/
+
+.scan {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+}
+
+.scan-btn {
+    color: #111;
+    font-size: 18px;
+    border: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #eee;
+    box-shadow: 1px 1px 3px #ccc;
+} 
+
+.scan-btn:hover {
+    background-color: #eeea;
+}
+
+.scan-btn:focus {
+    position: relative;
+    top: 2px;
+    left: 2px;
+    box-shadow: none;
+}
+
+/* Scan Animation Begins */
+
+.laser {
+    width: 100%;
+    background-color: tomato;
+    height: 1px;
+    position: absolute;
+    top: 10%;
+    z-index: 2;
+    box-shadow: 0 0 4px red;
+    animation: scanning 2s infinite;
+}
+
+.diode {
+animation: beam .01s infinite;
+}
+
+@keyframes beam {
+  50% {
+    opacity: 0;
+  }
+}
+
+@keyframes scanning {
+  50% {
+    transform: translateY(120px);
+  }
+}
+
+/* Scan Animation Ends */

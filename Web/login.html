@@ -1,0 +1,68 @@
+<!-- <?php 
+session_start();
+$json = file_get_contents("loginData.json");
+$data = json_decode($json, $associative= true);
+
+// echo gettype($data);
+$errorMsg = "";
+$validUser = $_SESSION["login"] === true;
+
+if(isset($_POST["submit"])) {
+    $input_authID = $_POST["authID"];
+    $input_password = $_POST["authPassword"];
+    $validUser = $input_authID == $data["authID"] && $input_password == $data["password"];
+    if(!$validUser) $errorMsg = "Invalid username or password.";
+    else $_SESSION["login"] = true;
+  }
+
+  if($validUser) {
+    header("Location: /home.html"); die();
+ }
+  
+
+?> -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FindOurs</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <nav id="navbar">
+        <img src="images/navbar96.png" alt="FindOurs Logo">
+        <p id="app-name">FIND OURS</p>
+    </nav>
+
+    <div class="page-head">
+        ADMINISTRATION
+    </div>
+
+    <form action="login.php" method="POST">
+        <label for="authID">
+            <p>Authentication ID </p> 
+            <input type="number" name="authID" id="authid" minlength="10" autocomplete="off" onkeydown="javascript: return event.keyCode == 69 ? false : true" required>
+        </label>
+
+        <label for="password">
+            <p>Password </p> 
+            <input type="password" name="authPassword" id="authpass" autocomplete="off" required>
+        </label>
+        <!-- <div class="error"><?= $errorMsg ?></div> -->
+        <label for="submit">
+            <button id="login-btn" name="submit">Login</button>
+        </label>
+
+    </form>
+
+    <div class="fingerprint">
+        <img src="images/fingerprint_white.png" alt="">
+    </div>
+
+    <script src="scripts/app.js"></script>
+</script>
+</body>
+</html>

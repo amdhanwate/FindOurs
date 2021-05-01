@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Success</title>
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/search.css">
+    <style>
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 400px;
+            margin: auto;
+            position: relative;
+            top: 20vh;
+        }
+        
+        .container div {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .value {
+            width: 200px;
+            text-decoration: underline solid #eee 2px;
+        }
+
+        span {
+            text-decoration: underline red;
+        }
+
+        .btn {
+            text-align: center;
+            display: flex;
+            /* justify-content: center; */
+            margin: 20px auto auto;
+            align-items: center;
+            flex-direction: column;
+            position: relative;
+            top: 30vh;
+            color: #eee;
+            width: fit-content;
+            padding: 5px 10px;
+        }
+
+        .btn-blue {
+            background-color: #55e;
+        }
+
+        .btn-red {
+            background-color: #e55;
+        }
+    </style>
+</head>
+
+<body>
+    <nav id="navbar">
+        <img src="images/navbar96.png" alt="FindOurs Logo">
+        <p id="app-name">FIND OURS</p>
+        <p id="signout" onclick="logout()"><a><img src="images/signout.png" alt="Sign Out"></a></p>
+    </nav>
+    <h1 class="page-head">DETAILS OF THE PERSON</h1>
+    <div class="container">
+        <div>
+            <p>Name: </p>
+            <p class="value">Abhijeet Dhanwate</p>
+        </div>
+        <div>
+            <p>Age: </p>
+            <p class="value">20</p>
+        </div>
+        <div>
+            <p>Mobile: </p>
+            <p class="value">9876543210</p>
+        </div>
+        <div>
+            <p>Gender: </p>
+            <p class="value">Male</p>
+        </div>
+        <div>
+            <p>Address: </p>
+            <p class="value">Pune</p>
+        </div>
+    </div>
+    <div class="buttons">
+        <a href="search.html" class="btn btn-blue">Search Another Person</a>
+        <a href="home.html" class="btn btn-red">Back to Home</a>
+    </div>
+</body>
+
+</html>
